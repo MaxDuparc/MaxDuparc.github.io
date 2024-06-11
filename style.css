@@ -45,6 +45,7 @@ nav{
 .menu{
     display: table;
     margin: 0 auto;
+    width: 60%;
 }
 
 nav ul{
@@ -220,7 +221,7 @@ h1{
 }
 
 section{
-    max-width: 50%;
+    max-width: 55%;
     margin-left: 5%;
     margin: auto;
     margin-top: 30px;
