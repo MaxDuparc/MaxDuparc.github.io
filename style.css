@@ -71,7 +71,7 @@ nav p{
     display: inline-block;
     text-decoration: none; 
     color: black; 
-    padding: 0px 20px 10px 20px;
+    padding: 0px 20px 10px 0px;
     text-transform: uppercase;
     font-size: 30px;
 }
@@ -191,7 +191,7 @@ h1{
 .left{
     padding-top: 10px;
     float: left;
-    width: 60%;
+    width: 70%;
     
 }
 
@@ -203,9 +203,8 @@ h1{
 
 .right{
     padding-top: 10px;
-    min-height: 330px;
-    float: left;
-    width: 40%;
+    float: right;
+    width: 30%;
 }
 
 .mypicture {
@@ -221,8 +220,7 @@ h1{
 }
 
 section{
-    max-width: 55%;
-    margin-left: 5%;
+    max-width: 60%;
     margin: auto;
     margin-top: 30px;
 
