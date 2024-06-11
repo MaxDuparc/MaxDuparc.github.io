@@ -1,2 +1,2 @@
 
-This is the readme of a potential futur website.
+This is the website of Max Duparc.
