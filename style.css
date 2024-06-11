@@ -1,0 +1,357 @@
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+
+  #content-wrap {
+    padding-bottom: 3rem;    /* Footer height */
+  }
+
+
+
+/* Body style*/
+
+
+body{
+    font-family:  "Roboto", Helvetica, sans-serif;
+    margin: auto;
+    display:flexbox;
+    text-align: justify;
+    background-color:rgb(240, 240, 240);
+    size: 15px;
+    min-height: 100dvh;
+    vertical-align: baseline;
+    position: relative;
+
+}
+
+header{
+    height: 30px;
+    background-color: rgb(118, 118, 118);
+}
+
+
+/*Navigation modifyers*/
+nav{
+    font-family: "Roboto", sans-serif;
+    height: 70px;
+    text-align: center;
+    background-color: lightgrey;
+    border-bottom: 2px solid #AAA;
+
+}
+
+.menu{
+    display: table;
+    margin: 0 auto;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none; 
+    color: black; 
+    padding: 40px 20px 15px 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+
+}
+
+nav p{
+    display: inline-block;
+    text-decoration: none; 
+    color: black; 
+    padding: 0px 20px 10px 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.title-space{
+    padding: 40px 300px 20px 30px;
+}
+.menu-standardlink:hover{
+    border-bottom: 5px solid grey;
+    background-color: rgba(150,150, 150, 0.2);
+    height: 70px;
+}
+
+
+nav li:hover a{
+    padding: 40px 20px 10px 20px;
+
+}
+
+
+/*Footers*/
+
+
+.superpadding{
+    min-height: 100%;
+}
+
+footer{
+    height: 60px;
+    text-align: center;
+    /*background-color: lightgrey;*/
+    border-top: 2px solid #AAA;
+    position:static;
+    bottom: auto;
+}
+
+footer ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.compact-contact{
+    display: table;
+    margin: 0 auto;
+}
+
+footer a{
+    display: inline-block;
+    text-decoration: none; 
+    padding: 5px 10px;
+
+}
+
+
+footer li{
+    list-style-type: none;
+    float: left;
+
+}
+
+.compact-contact-mail:hover{
+    border: 1px solid grey;
+    /*background-color: rgba(150,150, 150, 0.05);*/
+
+}
+.compact-contact-github:hover{
+    border: 1px solid grey;
+    /*background-color: rgba(150,150, 150, 0.05);*/
+
+}
+.compact-contact-orcid:hover{
+    border: 1px solid grey;
+    /*background-color: rgba(150,150, 150, 0.05);*/
+
+}
+.compact-contact-linkedin:hover{
+    border: 1px solid grey;
+    /*background-color: rgba(150,150, 150, 0.05);*/
+
+}
+
+footer a:hover {
+    padding: 4px 9px;
+
+}
+
+
+
+
+
+/*
+I will work on that
+*/
+
+
+h1{
+    font-size: 30px;
+    margin-bottom: -10px;
+    text-transform: capitalize;
+}
+
+.subtitles{
+    font-size: 20px;
+    
+}
+
+.shortbio{
+    text-emphasis: none;
+    padding-top: 30px;
+
+}
+
+
+
+.left{
+    padding-top: 10px;
+    float: left;
+    width: 60%;
+    
+}
+
+.left p{
+    width: 90%;
+    text-align: justify;
+
+}
+
+.right{
+    padding-top: 10px;
+    min-height: 330px;
+    float: left;
+    width: 40%;
+}
+
+.mypicture {
+    height: 300px;
+    border-radius: 20%;
+}
+
+.separator{
+    padding-top: 30px;
+    margin: 0 auto;
+
+
+}
+
+section{
+    max-width: 50%;
+    margin-left: 5%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+section li{
+    list-style-position: outside;
+
+}
+
+ section li::marker {
+  color:  rgb(53, 98, 136);;
+}
+
+
+
+section a{
+    text-decoration: none; 
+    color: rgb(34%, 54%, 70%);
+    background: linear-gradient(transparent 90%, rgb(34%, 54%, 70%) 10%);
+
+}
+
+.papers{
+    text-decoration: none; 
+    color: black;
+    background: linear-gradient(transparent 90%, #000080 10%);
+    box-shadow: inset 0 0 0 0 #000080;
+
+}
+
+
+
+.papers:hover{
+    box-shadow: inset 10px 10px 10px 10px #000080;
+    color: white;
+    transition: box-shadow cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+
+
+
+h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(53, 98, 136);
+    size: large;
+}
+
+h3{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: navy;
+    size: large;
+}
+
+
+
+.filepara{
+    padding-left: 15px;
+}
+
+
+section iframe{
+    margin: 0 auto;
+
+}
+
+
+.music-left{
+    padding-top: 10px;
+    float: left;
+    width: 40%;
+    
+}
+
+.music-left p{
+    width: 90%;
+    text-align: justify;
+
+}
+
+.music-center{
+    padding-top: 10px;
+    float: left;
+    width: 30%;
+    
+}
+
+
+.music-right{
+    padding-top: 10px;
+    min-height: 300px;
+    float: left;
+    width: 30%;
+}
+
+
+.iframe{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.head-video{
+    text-align: center;
+
+}
+
+.poster{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/*
+
+.ket::before{
+        content: "|";
+        padding-bottom: 20px;
+        font-size: 110%;
+    }
+        
+
+.ket::after{
+content: "\232A";
+font-size: 130%;
+
+}
+
+*/
+
