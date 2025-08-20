@@ -43,6 +43,7 @@ nav{
     text-align: center;
     background-color: lightgrey;
     border-bottom: 2px solid #AAA;
+    overflow: auto;
 
 }
 
@@ -53,17 +54,45 @@ nav{
 }
 
 nav ul{
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
 }
-nav a{
+
+.menu-me a{
     display: inline-block;
     text-decoration: none; 
     color: black; 
-    padding: 40px 20px 15px 20px;
+    padding: 25px 20px 10px 20px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 25px;
 }
+
+
+
+.submenu a{
+    display: inline-block;
+    text-decoration: none; 
+    color: black; 
+    padding: 35px 20px 10px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+.menu-standardlink-activepage{
+    border-bottom: 3px solid  rgb(53, 98, 136);
+    height: 67px;
+}
+
+.menu-standardlink-activepage a{
+    display: inline-block;
+    text-decoration: none; 
+    color:   rgb(53, 98, 136);
+    padding: 35px 20px 10px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
 
 nav li{
     list-style-type: none;
@@ -71,28 +100,23 @@ nav li{
 
 }
 
-nav p{
-    display: inline-block;
-    text-decoration: none; 
-    color: black; 
-    padding: 0px 20px 10px 0px;
-    text-transform: uppercase;
-    font-size: 30px;
-}
 
-
-.title-space{
-    padding: 40px 300px 20px 30px;
-}
 .menu-standardlink:hover{
-    border-bottom: 5px solid grey;
-    background-color: rgba(150,150, 150, 0.2);
-    height: 70px;
+    border-bottom: 3px solid grey;
+    background-color: rgba(150,150, 150, 0.4);
+    height: 67px;
+    transition: background-color 0.3s ease-in-out;
 }
 
+.menu-me:hover{
+    border-bottom: 3px 1rem solid grey;
+    background-color: rgba(150,150, 150, 0.4);
+    height: 70px;
+    transition: background-color 0.3s ease-in-out;
+}
 
-nav li:hover a{
-    padding: 40px 20px 10px 20px;
+.submenu li:hover a{
+    padding: 35px 20px 10px 20px;
 
 }
 
@@ -221,7 +245,8 @@ h1{
 
 
 .mypicture {
-    height: 270px;
+    width: 200px;
+    max-width: 80%;
     border-radius: 20%;
 }
 
@@ -245,7 +270,7 @@ section li{
 }
 
  section li::marker {
-  color:  rgb(53, 98, 136);;
+  color:  rgb(53, 98, 136);
 }
 
 
