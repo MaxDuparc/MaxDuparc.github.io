@@ -1,2 +1,2 @@
 
-This is the website of Max Duparc.
+This is the personal website of Max Duparc.
